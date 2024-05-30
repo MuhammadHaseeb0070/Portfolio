@@ -1,0 +1,40 @@
+.footer {
+    width: 90%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    height: 15%;
+    justify-self: flex-end;
+}
+
+.footer>p {
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.footer>p>span {
+    color: var(--light-grey-color);
+    font-weight: 400;
+}
+
+.footer>p>span>span {
+    font-weight: 500;
+    color: var(--max-red-color);
+}
+
+.socialAccounts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialAccounts * {
+    width: 1.2rem;
+    margin: auto 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.socialAccounts *:hover{
+    transform: scale(1.2) ;
+}

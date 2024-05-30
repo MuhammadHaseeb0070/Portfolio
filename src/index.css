@@ -1,0 +1,15 @@
+:root {
+    --min-red-color: #e40035;
+    --min-red-transparent-color: #e4003555;
+    --max-red-color: #e40037;
+    --dard-grey-background-color:rgb(30, 30, 30);
+    --light-grey-color:#c0c0c0c1;
+    --font-color: #ffffff;
+
+    /* Add more variables as needed */
+  }
+  
+*{
+
+    font-family: 'Poppins', sans-serif;
+}
